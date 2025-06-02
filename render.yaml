@@ -6,7 +6,7 @@ services:
     autoDeploy: true
     envVars:
       - key: ROOT_URL
-        value: https://rchat.onrender.com
+        value: https://rocketchat-8022.onrender.com
       - key: MONGO_URL
         value: mongodb+srv://tigerloool:Prex-Ly54rocketchat@rocketchat.5stngwf.mongodb.net/?retryWrites=true&w=majority&appName=rocketchat
       - key: PORT
