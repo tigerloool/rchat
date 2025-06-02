@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: rocketchat
+    env: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: ROOT_URL
+        value: https://rchat.onrender.com
+      - key: MONGO_URL
+        value: mongodb+srv://tigerloool:Prex-Ly54rocketchat@rocketchat.5stngwf.mongodb.net/?retryWrites=true&w=majority&appName=rocketchat
+      - key: PORT
+        value: 3000
