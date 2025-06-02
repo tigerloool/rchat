@@ -11,3 +11,5 @@ services:
         value: mongodb+srv://tigerloool:Prex-Ly54rocketchat@rocketchat.5stngwf.mongodb.net/?retryWrites=true&w=majority&appName=rocketchat
       - key: PORT
         value: 3000
+    dockerCommand: |
+      node --max-old-space-size=256 main.js
